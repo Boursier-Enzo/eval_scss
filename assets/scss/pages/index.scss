@@ -1,5 +1,9 @@
 @use "../abstracts" as *;
 
+body {
+  background-color: $bg-main;
+}
+
 .nav {
   display: flex;
   padding: 0 10rem 0 10rem;
@@ -126,8 +130,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: $bg-main;
-  border-bottom: 0.3rem solid $bg-nav;
+  background-color: $bg-secondary;
+  border-bottom: 0.1rem solid $bg-nav;
   &__wrapper {
     display: flex;
     align-items: center;
@@ -136,7 +140,7 @@
     &__marque {
       font-size: $font-size-lg;
       font-weight: 900;
-      color: $font-primary;
+      color: $text-body;
     }
 
     &__point {
@@ -144,4 +148,156 @@
       color: $cta;
     }
   }
+}
+
+.categorie {
+  display: flex;
+  justify-content: space-around;
+}
+
+.carte_infos {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  display: flex;
+  align-items: right;
+  border: 3px;
+  border-color: black;
+}
+
+.carte {
+  width: 22rem;
+  height: 18rem;
+  border: solid 2px;
+  background-color: #a4a397;
+  border-color: #bdbbb0;
+  border-radius: 15px;
+}
+
+.Titre_section {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.Sous-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
+  font-weight: bolder;
+  margin-bottom: 2rem;
+}
+
+.icone_infos {
+  padding: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid;
+  border-color: black;
+  border-radius: 15px;
+}
+
+.texte_infos {
+  width: 16.5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+}
+
+.temoignages {
+  width: 100%;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  border: 3px;
+  border-color: black;
+}
+
+.carte {
+  width: 22rem;
+  height: 18rem;
+  border: solid 2px;
+  background-color: #a4a397;
+  border-color: #bdbbb0;
+  border-radius: 15px;
+}
+
+.Titre_témoignage {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.Sous-titre_témoignage {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
+  font-weight: bolder;
+  margin-bottom: 2rem;
+}
+
+.photo_profil {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.textes_personnes {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2rem 2rem 1rem;
+}
+
+.avis {
+  margin: 2rem 2rem 0 2rem;
+  display: flex;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+}
+
+.star {
+  display: flex;
+  flex-direction: row;
+  width: 1rem;
+  height: 1rem;
+}
+
+.stars {
+  margin-top: 3rem;
+  margin-left: 2rem;
+  display: flex;
+}
+
+.personne {
+  display: flex;
+  align-items: center;
+  margin: 0 2rem 2rem 2rem;
+}
+
+.Nom_client {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+
+.Sous-titre {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
 }
