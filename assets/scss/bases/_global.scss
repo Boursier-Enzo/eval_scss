@@ -1,0 +1,9 @@
+@use "../abstracts" as *;
+@use "../modules/nav";
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: $font-primary;
+  font-size: $font-size-md;
+}

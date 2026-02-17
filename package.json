@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "sass --watch assets/scss:assets/css"
+  },
+  "dependencies": {
+    "react-router-dom": "^7.13.0",
+    "sass": "^1.97.3"
+  }
+}
